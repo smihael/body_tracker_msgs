@@ -1,4 +1,4 @@
-#Header header # I CANT GET THIS TO COMPILE!
+#Header header
 
 int32 body_id
 int32 tracking_status
@@ -8,22 +8,20 @@ geometry_msgs/Point32 position2D # x,y in camera frame, z distance from camera
 
 geometry_msgs/Point32 centerOfMass
 
-#Position of interesting joints
-geometry_msgs/Point32 joint_position_head
-geometry_msgs/Point32 joint_position_neck
-geometry_msgs/Point32 joint_position_shoulder
-geometry_msgs/Point32 joint_position_spine_top
-geometry_msgs/Point32 joint_position_spine_mid
-geometry_msgs/Point32 joint_position_spine_bottom
+#Poses of interesting joints
+geometry_msgs/Pose joint_pose_head
+geometry_msgs/Pose joint_pose_neck
+geometry_msgs/Pose joint_pose_shoulder
+geometry_msgs/Pose joint_pose_spine_top
+geometry_msgs/Pose joint_pose_spine_mid
+geometry_msgs/Pose joint_pose_spine_bottom
 
-geometry_msgs/Point32 joint_position_left_shoulder
-geometry_msgs/Point32 joint_position_left_elbow
-geometry_msgs/Point32 joint_position_left_hand
+geometry_msgs/Pose joint_pose_left_shoulder
+geometry_msgs/Pose joint_pose_left_elbow
+geometry_msgs/Pose joint_pose_left_hand
 
-geometry_msgs/Point32 joint_position_right_shoulder
-geometry_msgs/Point32 joint_position_right_elbow
-geometry_msgs/Point32 joint_position_right_hand
-
-# Robot is usually too close to see legs, and not very interesting
+geometry_msgs/Pose joint_pose_right_shoulder
+geometry_msgs/Pose joint_pose_right_elbow
+geometry_msgs/Pose joint_pose_right_hand
 
 
