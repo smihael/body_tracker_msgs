@@ -34,4 +34,29 @@ geometry_msgs/Pose right_knee_pose
 geometry_msgs/Pose right_foot_pose
 
 
+float32 head_confidence
+float32 neck_confidence
+float32 shoulder_confidence
+float32 spine_mid_confidence
+float32 spine_bottom_confidence
+
+float32 left_shoulder_confidence
+float32 left_elbow_confidence
+float32 left_wrist_confidence
+float32 left_hand_confidence
+
+float32 right_shoulder_confidence
+float32 right_elbow_confidence
+float32 right_wrist_confidence
+float32 right_hand_confidence
+
+float32 left_hip_confidence
+float32 left_knee_confidence
+float32 left_foot_confidence
+
+float32 right_hip_confidence
+float32 right_knee_confidence
+float32 right_foot_confidence
+
+
 
